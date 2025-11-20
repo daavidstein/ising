@@ -1,0 +1,16 @@
+[project]
+name = "ising"
+version = "0.1.0"
+description = "Statistical Mechanics, Spin Glasses, Simulated/Quantum Annealing"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dimod>=0.12.21",
+    "dwave-neal>=0.6.0",
+    "infomeasure>=0.5.0",
+    "ipykernel>=7.1.0",
+    "kagglehub[pandas-datasets]>=0.3.13",
+    "matplotlib>=3.10.7",
+    "seaborn>=0.13.2",
+    "tqdm>=4.67.1",
+]
